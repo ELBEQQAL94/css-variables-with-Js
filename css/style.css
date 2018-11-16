@@ -1,0 +1,66 @@
+/* Start Main Rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif
+}
+/* End Main Rules */
+
+/* Start Style My Design */
+h1
+{
+    font-size: 4em;
+    text-align: center;
+    background-color:var(--base);
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0
+}
+h1 span
+{
+    color: black
+}
+.controls
+{
+    margin-top: 3em;
+    margin-left: 20px;
+    font-size: 2.3em;
+    text-align: center
+}
+label
+{
+    text-transform: capitalize;
+    color: coral;
+    font-weight: bold;
+}
+img
+{
+    display: block;
+    text-align: center;
+    margin:3em auto;
+}
+/* End Style My Design */
+
+/* Start Defined a vars */
+:root
+{
+    --base: #f2395a;
+    --spacing: 10px;
+    --blur: 10px
+}
+img
+{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+/* End Defined a vars */
